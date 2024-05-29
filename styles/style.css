@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Righteous&family=Stardos+Stencil:wght@400;700&display=swap');
 
+body{
+    background: #536976;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #292E49, #536976);
+    background: linear-gradient(to right, #292E49, #536976);
+}
 header {
    width: 100%;
    height: 94px;
@@ -24,8 +29,81 @@ header {
     color: #f1f5f9;
 }
 
-body{
-    background: #536976;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #292E49, #536976);
-    background: linear-gradient(to right, #292E49, #536976);
+main{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
 }
+
+.entrada__saida-container{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    gap: 2rem;
+    width: 100%;
+    height: 815px;
+    align-items: center;
+
+}
+.entradas{
+    width: 443px;
+    height: 647px;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    background: #ECE9E6;  
+    background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);
+    background: linear-gradient(to right, #FFFFFF, #ECE9E6);
+    border-radius: 14px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.entrada__cidade{
+    color: #0f172a;
+    font-family: "Stardos Stencil", system-ui;
+    font-weight: 700;
+}
+.entrada__pais{
+    color: #0f172a;
+    font-family: "Stardos Stencil", system-ui;
+    font-weight: 700;
+    padding-left: 20px;
+}
+
+.botao__consulta{
+    width: 120px;
+    height: 35px;
+    border-radius: 8px;
+    border: none;
+    background-color: #d5d1cd;
+    font-family: "Stardos Stencil", system-ui;
+    font-size: 0.7rem;
+    font-weight: 1000;
+}
+#input__cidade{
+    border: none;
+    border-radius: 5px;
+    background-color:#d5d1cd;
+    width: 200px;
+    height: 30px;
+    font-family: "Stardos Stencil", system-ui;
+}
+#input__pais{
+    border: none;
+    border-radius: 5px;
+    background-color: #d5d1cd;
+    width: 200px;
+    height: 30px;
+}
+.saida__de__dados{
+    width: 846px;
+    height: 647px;
+    background: #ECE9E6;  
+    background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);
+    background: linear-gradient(to right, #FFFFFF, #ECE9E6);
+    border-radius: 14px;
+    color: #0f172a;
+}
+
