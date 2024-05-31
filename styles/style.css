@@ -79,11 +79,11 @@ main{
 }
 
 .botao__consulta{
-    width: 120px;
-    height: 35px;
+    width: 140px;
+    height: 40px;
     border-radius: 8px;
     border: none;
-    background-color: #d5d1cd;
+    background-color: #c5c2be;
     font-family: "Stardos Stencil", system-ui;
     font-size: 0.7rem;
     font-weight: 1000;
@@ -96,8 +96,8 @@ main{
     border: none;
     border-radius: 5px;
     background-color:#c5c2be;
-    width: 200px;
-    height: 30px;
+    width: 300px;
+    height: 40px;
     font-family: "Stardos Stencil", system-ui;
 }
 
@@ -111,8 +111,8 @@ main{
     border: none;
     border-radius: 5px;
     background-color:#c5c2be;
-    width: 200px;
-    height: 30px;
+    width: 300px;
+    height: 40px;
     font-family: "Stardos Stencil", system-ui;
 }
 
