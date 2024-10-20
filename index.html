@@ -6,8 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="./styles/reset.css">
     <link rel="stylesheet" href="styles/style.css">
-    
-    
     <title>Clima Tempo</title>
 </head>
 <body>
@@ -18,25 +16,27 @@
         </div>
     </header>
     <main>
-        <div class="entrada__saida-container">
-            
+        <div class="entrada__saida-container"> 
             <div class="entradas">
                 <img src="./assets/clima (1).png" alt="">
                 <div class="entrada__cidade">
                     <label for="InputCity" id="campo__cidade">CIDADE</label>
                     <input type="text" name="InputCity" id="input__cidade" placeholder="Insira uma cidade"> 
                 </div>
-                <div class="entrada__pais">
-                    <label for="InputCountry" id="campo__pais">PAÍS</label>
-                    <input type="text" name="InputCountry" id="input__pais" placeholder="Insira um país"> 
-                </div>
-                <button class="botao__consulta">CONSULTAR CLIMA</button>
+                <button class="botao__consulta" onclick="getWeather()">CONSULTAR CLIMA</button>
             </div>
             
             <div class="saida__de__dados">
-
+                <div class="saida__atual">
+                    <span class="grau__imagem-atual" id="currentTemp">--°C <img src="" alt="" id="weatherIcon"></span>
+                </div>
+                <div class="saida__proximos-dias" id="forecastDays">
+    
+                </div>
             </div>
         </div>
     </main>
+
+    <script src="./script.js"></script> 
 </body>
 </html>
